@@ -1,0 +1,90 @@
+.App {
+  background-color: #b4d7fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main_body {
+  width: 100%;
+}
+.second_body {
+  background-color: #5793d8;
+  border-radius: 45px;
+  height: 95vh;
+}
+.left_col {
+  background-color: #5793d8;
+  height: 95vh;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+.right_col {
+  background-color: #e4f1ff;
+  border-radius: 45px;
+}
+.profile_image {
+  width: 50px;
+  border-radius: 17px;
+}
+.right_col_header {
+  display: flex;
+  justify-content: space-between;
+}
+.app_btn {
+  background-color: white;
+  color: #5793d8;
+  border: none;
+  border-radius: 9px;
+  padding: 2px 6px;
+}
+.first {
+  padding: 3px;
+  background-color: white;
+  display: inline-block;
+  margin-right: 5px;
+  width: 20px;
+  border-radius: 10px;
+}
+.second {
+  padding: 3px;
+  background-color: #9dc3ef;
+  display: inline-block;
+  margin-right: 5px;
+  width: 5px;
+  border-radius: 10px;
+}
+.third {
+  padding: 3px;
+  background-color: #9dc3ef;
+  display: inline-block;
+  margin-right: 5px;
+  width: 5px;
+  border-radius: 10px;
+}
+
+.details_card{
+  background-color: white;
+  border-radius: 35px;
+}
+
+.details_card_title{
+  font-size: 13px;
+}
+.details_card_icon{
+  background-color: #5793d8;
+  color: white;
+  padding:5px;
+  font-size: 30px;
+  float: right;
+  border-radius: 10px;
+}
+.detail_p{
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+.detail_p>span{
+  font-size: small;
+  font-weight: normal;
+}
