@@ -46,7 +46,7 @@ export default function Details() {
             <Row>
               <Col md={4}>
                 <span style={{ color: 'grey', fontSize: 12 }}>good</span>
-                <BorderLinearProgress variant="determinate" value={100} />
+                <BorderLinearProgress variant="determinate" value={50} />
               </Col>
               <Col md={4}>
                 <span style={{ color: 'grey', fontSize: 12 }}>normal</span>
@@ -72,6 +72,31 @@ export default function Details() {
               </Col>
             </Row>
             <p className="detail_p m-0">8 km/h</p>
+            <div
+              style={{ display: 'flex', justifyContent: 'space-between' }}
+              className="m-0"
+            >
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>00</span>
+                <BorderLinearProgress variant="determinate" value={100} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>05</span>
+                <BorderLinearProgress variant="determinate" value={100} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>10</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>20</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>30</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+            </div>
           </div>
         </Col>
         <Col md={4}>
@@ -85,22 +110,51 @@ export default function Details() {
               </Col>
             </Row>
             <p className="detail_p m-0">1.4 cm</p>
-            <Row>
-              <Col md={4}>
-                <span style={{ color: 'grey', fontSize: 12 }}>good</span>
+            <div
+              style={{ display: 'flex', justifyContent: 'space-between' }}
+              className="m-0"
+            >
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>0</span>
                 <BorderLinearProgress variant="determinate" value={100} />
-              </Col>
-              <Col md={4}>
-                <span style={{ color: 'grey', fontSize: 12 }}>normal</span>
-
-                <BorderLinearProgress variant="determinate" value={100} />
-              </Col>
-              <Col md={4}>
-                <span style={{ color: 'grey', fontSize: 12 }}>bad</span>
-
-                <BorderLinearProgress variant="determinate" value={40} />
-              </Col>
-            </Row>
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>10</span>
+                <BorderLinearProgress variant="determinate" value={50} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>20</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>30</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>40</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>50</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>60</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>70</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>80</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+              <div>
+                <span style={{ color: 'grey', fontSize: 12 }}>90</span>
+                <BorderLinearProgress variant="determinate" value={0} />
+              </div>
+            </div>
           </div>
         </Col>
       </Row>
@@ -119,7 +173,10 @@ export default function Details() {
             <p className="detail_p m-0">
               4 <span>medium</span>
             </p>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div
+              style={{ display: 'flex', justifyContent: 'space-between' }}
+              className="m-0"
+            >
               <div>
                 <span style={{ color: 'grey', fontSize: 12 }}>0-2</span>
                 <BorderLinearProgress variant="determinate" value={100} />
@@ -186,20 +243,11 @@ export default function Details() {
             <p className="detail_p m-0">42%</p>
             <div>
               <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <span style={{ color: 'grey', fontSize: 12 }}>
-                  0%
-                </span>
-                <span style={{ color: 'grey', fontSize: 12 }}>
-                  25%
-                </span>
-                <span style={{ color: 'grey', fontSize: 12 }}>
-                  50%
-                </span>
-                <span style={{ color: 'grey', fontSize: 12 }}>
-                  75%
-                </span> <span style={{ color: 'grey', fontSize: 12 }}>
-                  100%
-                </span>
+                <span style={{ color: 'grey', fontSize: 12 }}>0%</span>
+                <span style={{ color: 'grey', fontSize: 12 }}>25%</span>
+                <span style={{ color: 'grey', fontSize: 12 }}>50%</span>
+                <span style={{ color: 'grey', fontSize: 12 }}>75%</span>{' '}
+                <span style={{ color: 'grey', fontSize: 12 }}>100%</span>
               </div>
 
               <BorderLinearProgress variant="determinate" value={40} />
