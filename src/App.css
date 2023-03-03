@@ -17,6 +17,7 @@
   border-bottom-left-radius: 45px;
   background-image: url('./images/nyc2.png');
   background-position: center bottom;
+  background-size: 700px;
   background-repeat: no-repeat;
 }
 .nyc{
@@ -139,6 +140,6 @@ background-color: #e4f1ff;
   margin: 0 8px;
 }
 
-.lll{
+/* .lll{
   background-image: url('./images/nyc1.png') !important;
-}
+} */
