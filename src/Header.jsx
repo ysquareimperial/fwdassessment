@@ -1,5 +1,4 @@
 import { AiOutlineEllipsis } from 'react-icons/ai'
-import profileImage from './images/Yasir.png'
 
 export const Header = () => {
   return (
@@ -11,7 +10,7 @@ export const Header = () => {
       <div>
         <AiOutlineEllipsis size="2rem" style={{ marginRight: 20 }} />
         <img
-          src={profileImage}
+          src='https://res.cloudinary.com/dx5ilizca/image/upload/v1677883696/yasir_zq8f4w.png'
           className="profile_image"
           alt="profile_picture"
         />
