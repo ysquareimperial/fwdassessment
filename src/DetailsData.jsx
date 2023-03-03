@@ -1,0 +1,1 @@
+const DetailsData = [{title:'UV In'}]
